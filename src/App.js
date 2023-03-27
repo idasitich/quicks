@@ -9,7 +9,7 @@ import TaskIcon from './assets/task';
 import Inbox from './assets/inbox';
 import ChatGroup from './messages/content/group/chat';
 import ChatPerson from './messages/content/person/chat';
-import Task from './task/task';
+
 
 
 
@@ -53,21 +53,18 @@ function App() {
   }
  
   
-    
-    
-  
   return (
-  <>
-      <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='Msg' element={<Msg />}>
-              <Route path="Chat-Group" element={<ChatGroup  />}/>
-              <Route path="Chat-Person" element={<ChatPerson  />}/>
-            </Route>
-          <Route path='Box-Task' element={<BoxTask />}>
-            {/* <Route path='Task' element={<Task day={day} date={date}/>}/> */}
+<>
+    <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='Msg' element={<Msg />}>
+            <Route path="Chat-Group" element={<ChatGroup  />}/>
+            <Route path="Chat-Person" element={<ChatPerson  />}/>
           </Route>
-      </Routes>
+        <Route path='Box-Task' element={<BoxTask />}>
+          {/* <Route path='Task' element={<Task day={day} date={date}/>}/> */}
+        </Route>
+    </Routes>
     <div id='toggle' className='active'>
       <ul className='rata-ul'>
           <li  className='position-task' onClick={displayTask}>
