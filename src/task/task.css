@@ -1,0 +1,59 @@
+.container-box{
+    padding: 24px 32px;
+}
+.section{
+    overflow-x: auto;
+    height: 90%;
+}
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.container-body{
+    padding: 20px;
+    border-bottom: 1px solid;
+    display: block;
+   
+}
+.dropdown-task{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-right span{
+    padding-right: 10px;
+}
+.show-task{
+    padding-bottom: 10px;
+}
+.check-box{
+    margin: 0px 10px;
+}
+.date{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.description{
+    padding-left: 50px;
+    display: flex;
+}
+.pencil{
+    padding-right: 10px;
+}
+.description span{
+    padding-right: 10px;
+}
+.date span{
+    padding-right: 10px;
+}
+.delete{
+   margin-left: 50%;
+}
+.none{
+    display: none;
+}
+select.btn.btn-secondary.dropdown-toggle {
+    background: white;
+    color: #4F4F4F;
+}
