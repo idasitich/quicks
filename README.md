@@ -1,0 +1,1 @@
+https://idasitich.github.io/quicks/
