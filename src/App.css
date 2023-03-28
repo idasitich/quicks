@@ -1,7 +1,7 @@
 .position-toggle{
     position: absolute;
-    left: 1810px;
-    top: 1011px;
+    left: 1185px;
+    top: 540px;
     
 }
 .container-toggle img{
@@ -29,13 +29,13 @@
 }
 .position-inbox{
     position: absolute;
-    left: 1732px;
-    top: 985px;
+    left: 1100px;
+    top: 520px;
 }
 .position-task{
     position: absolute;
-    left: 1646px;
-    top: 985px;
+    left: 1025px;
+    top: 520px;
 }
 .active{
     display: none;

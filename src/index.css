@@ -11,8 +11,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  max-width: 1920px;
-  max-height: 1080px;
   background: #0F8A69;
   font-family: "lato-regular";
 
